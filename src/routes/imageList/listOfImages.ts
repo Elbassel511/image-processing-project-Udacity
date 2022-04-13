@@ -3,7 +3,7 @@ import { promises as fs } from 'fs'
 import path from 'path'
 const routes = express.Router()
 
-routes.get('/', async (req: express.Request, res: express.Response) => {
+routes.get('/', async (req: express.Request, res: express.Response): void => {
     const files: string[] = await fs.readdir(
         path.resolve(__dirname, '../../../assests/full'),
     )

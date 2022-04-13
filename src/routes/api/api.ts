@@ -62,7 +62,6 @@ routes.get(
                 return res.status(200).contentType('jpg').send(data)
             })
             .catch((err: Error) => {
-                console.log(`Error at sharp processing:${err}`)
                 err.message === 'Input file is missing'
                     ? res.status(404).send(err.message)
                     : res.status(500).send(err.message)
