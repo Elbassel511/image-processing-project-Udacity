@@ -131,10 +131,10 @@ An resizing API that can be used in two different ways.
 ## Lessons Learned
 [(Back to top)](#table-of-contents)
 - building server from scratch.
-- reading and writing to disk via a Node.js express server.
-- working with routes.
+- reading and writing to disk via Node.js express server.
+- working with express routes.
 - working with typescript.
-- testing code with jasmmine
+- testing code with jasmmine.
    
 
 ## screen shot
@@ -157,9 +157,10 @@ An resizing API that can be used in two different ways.
 - make sure node.js is installed on your pc.
 - write ```npm install``` in your terminal to download modules. 
 - write ```npm run start``` to run server.
-- open 'localhost:3000' in your browser.
+- open 'http://localhost:3000/' in your browser.
 - in browser enter 'http://localhost:3000/api?filename={filename}&width={width}&height={width}' with file name, width  and height to get resized image.
 - go to 'http://localhost:3000/imagelist' to see image list saved in full folder
+- go to 'http://localhost:3000/api-gui' to use api GUI
 
 ## Author
 [(Back to top)](#table-of-contents)
