@@ -52,28 +52,80 @@ An resizing API that can be used in two different ways.
 ```
 ├───assests
 │   ├───full
+│   │       image1.jpg
+│   │       image2.jpg
+│   │       image3.jpg
+│   │       image4.jpg
+│   │       image5.jpg
+│   │       image6.jpg
+│   │
 │   └───thumbs
+│
 ├───build
+│   │   api.js
+│   │   index.js
+│   │   reporter.js
+│   │
 │   ├───routes
+│   │   │   index.js
+│   │   │
 │   │   ├───api
+│   │   │       api.js
+│   │   │
 │   │   └───imageList
+│   │           imageList.js
+│   │           listOfImages.js
+│   │
 │   ├───tests
+│   │   │   apiSpec.js
+│   │   │   image-processingSpec.js
+│   │   │   indexSpec.js
+│   │   │
 │   │   └───helpers
+│   │           reporter.js
+│   │
 │   └───utilites
 │       └───Image_processing
+│               image-processing.js
+│
 ├───public
+│   │   api.html
+│   │   imagelist.html
+│   │   imagelist.js
+│   │   index.html
+│   │
 │   └───style
+│           style.css
+│
 ├───screen-shot
+│
 ├───spec
 │   └───support
+│           jasmine.json
+│
 └───src
+    │   index.ts
+    │
     ├───routes
+    │   │   index.ts
+    │   │
     │   ├───api
+    │   │       api.ts
+    │   │
     │   └───imageList
+    │           imageList.ts
+    │           listOfImages.ts
+    │
     ├───tests
+    │   │   image-processingSpec.ts
+    │   │   indexSpec.ts
+    │   │
     │   └───helpers
+    │           reporter.ts
+    │
     └───utilites
         └───Image_processing
+                image-processing.ts
 ```
 
 ## Lessons Learned
