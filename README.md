@@ -103,9 +103,11 @@ An resizing API that can be used in two different ways.
 
 - Clone the project
 - make sure node.js is installed on your pc.
-- write ```npm install``` in your terminal to download modules 
-- write ```npm run start``` to run server
-- open 'localhost:3000' in your browser
+- write ```npm install``` in your terminal to download modules. 
+- write ```npm run start``` to run server.
+- open 'localhost:3000' in your browser.
+- in browser enter 'http://localhost:3000/api?filename={filename}&width={width}&height={width}' with file name, width  and height to get resized image.
+- go to 'http://localhost:3000/imagelist' to see image list saved in full folder
 
 ## Author
 [(Back to top)](#table-of-contents)
